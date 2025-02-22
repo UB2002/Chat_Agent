@@ -21,18 +21,24 @@ Build a friendly chatbot that can analyze the famous Titanic dataset. Users shou
 git clone https://github.com/your-repo/titanic-chatbot.git
 cd titanic-chatbot
 ```
+### 2 Configure Environment
+Create backend/.env:
+```sh
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+Replace your_gemini_api_key_here with your actual Gemini API key.
 
-### 2️ Install Dependencies
+### 3 Install Dependencies
 ```sh
 pip install -r requirements.txt
 ```
 
-### 3️ Run the Backend (FastAPI)
+### 4 Run the Backend (FastAPI)
 ```sh
 fastapi dev api.py
 ```
 
-### 4️ Run the Frontend (Streamlit)
+### 5 Run the Frontend (Streamlit)
 ```sh
 streamlit run frontend.py
 ```
