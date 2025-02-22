@@ -29,12 +29,12 @@ pip install -r requirements.txt
 
 ### 3️ Run the Backend (FastAPI)
 ```sh
-uvicorn backend.main:app --reload
+fastapi dev api.py
 ```
 
 ### 4️ Run the Frontend (Streamlit)
 ```sh
-streamlit run frontend/app.py
+streamlit run frontend.py
 ```
 
 ## 🤔 Example Questions you can ask the model 
